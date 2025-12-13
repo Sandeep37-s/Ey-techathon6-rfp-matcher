@@ -21,7 +21,7 @@ An **Agentic AI system** that reads RFP (Request for Proposal) PDFs, summarizes 
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Project Structure
 EY/
 ├── agents/
 │   ├── reader_agent.py        # Reads + summarizes RFP PDF using Groq
