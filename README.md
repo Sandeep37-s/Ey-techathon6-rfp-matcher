@@ -24,22 +24,20 @@ An **Agentic AI system** that reads RFP (Request for Proposal) PDFs, summarizes 
 ## 🗂️ Project Structure
 EY/
 ├── agents/
-│ ├── reader_agent.py # Reads + summarizes RFP PDF using Groq
-│ ├── technical_agent.py # Matches RFP with product catalog (TF-IDF)
-│ ├── main_agent.py # Integrates Reader + Technical Agents
-│ ├── pricing_agent.py # (Optional) Price estimation module
+│   ├── reader_agent.py        # Reads + summarizes RFP PDF using Groq
+│   ├── technical_agent.py     # Matches RFP with product catalog (TF-IDF)
+│   ├── main_agent.py          # Integrates Reader + Technical Agents
+│   ├── pricing_agent.py       # (Optional) Price estimation module
 ├── data/
-│ ├── product.csv # Product catalog
-│ └── rfp_request.csv # (Optional) RFP storage
+│   ├── product.csv            # Product catalog
+│   └── rfp_request.csv        # (Optional) RFP storage
 ├── templates/
-│ ├── index.html # Upload form
-│ └── result.html # Results display
-├── app.py # Flask UI entry point
+│   ├── index.html             # Upload form
+│   └── result.html            # Results display
+├── app.py                     # Flask UI entry point
 ├── requirements.txt
-└── sample_rfp.pdf # Example RFP file
+└── sample_rfp.pdf             # Example RFP file
 
-yaml
-Copy code
 
 ---
 
