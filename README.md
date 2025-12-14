@@ -22,21 +22,20 @@ An **Agentic AI system** that reads RFP (Request for Proposal) PDFs, summarizes 
 ---
 
 ## 📁 Project Structure
-EY/
-├── agents/
-│   ├── reader_agent.py
-│   ├── technical_agent.py
-│   ├── main_agent.py
-│   ├── pricing_agent.py
-├── data/
-│   ├── product.csv
-│   └── rfp_request.csv
-├── templates/
-│   ├── index.html
-│   └── result.html
-├── app.py
-├── requirements.txt
-└── sample_rfp.pdf
+graph TD;
+  EY --> agents;
+  EY --> data;
+  EY --> templates;
+  EY --> app.py;
+  EY --> requirements.txt;
+  agents --> reader_agent.py;
+  agents --> technical_agent.py;
+  agents --> main_agent.py;
+  agents --> pricing_agent.py;
+  data --> product.csv;
+  data --> rfp_request.csv;
+  templates --> index.html;
+  templates --> result.html;
 
 ---
 
