@@ -22,12 +22,15 @@ An **Agentic AI system** that reads RFP (Request for Proposal) PDFs, summarizes 
 ---
 
 ## 📁 Project Structure
+
+```mermaid
 graph TD;
   EY --> agents;
   EY --> data;
   EY --> templates;
   EY --> app.py;
   EY --> requirements.txt;
+  EY --> sample_rfp.pdf;
   agents --> reader_agent.py;
   agents --> technical_agent.py;
   agents --> main_agent.py;
@@ -36,6 +39,7 @@ graph TD;
   data --> rfp_request.csv;
   templates --> index.html;
   templates --> result.html;
+
 
 ---
 
