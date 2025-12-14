@@ -1,6 +1,8 @@
 import requests
 from PyPDF2 import PdfReader
 
+GROQ_API_KEY = "YOUR_API_KEY"
+
 
 
 def extract_text_from_pdf(pdf_path):
